@@ -167,6 +167,66 @@ p { margin: 0 0 var(--space-2); max-width: 62ch; color: var(--color-brown-700); 
   color: var(--color-moss-deep);
 }
 
+/* ---- Hero ------------------------------------------------------------------ */
+.hero {
+  min-height: calc(100vh - 65px);
+  display: flex;
+  align-items: center;
+  border-bottom: var(--border-thin);
+  background: var(--color-cream);
+}
+
+.hero__content {
+  max-width: 44rem;
+}
+
+.hero__eyebrow {
+  display: inline-block;
+  font-size: var(--fs-sm);
+  color: var(--color-gold-deep);
+  margin-bottom: var(--space-2);
+}
+
+.hero__title {
+  font-size: var(--fs-2xl);
+  margin-bottom: var(--space-3);
+}
+
+.hero__desc {
+  font-size: var(--fs-md);
+  max-width: 40ch;
+  margin-bottom: var(--space-4);
+}
+
+/* ---- Category grid ---------------------------------------------------------- */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: var(--space-3);
+}
+
+.category-card {
+  display: block;
+  padding: var(--space-4) var(--space-3);
+  border: var(--border-thin);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  text-align: center;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.category-card:hover {
+  border-color: var(--color-moss-deep);
+  background: var(--color-cream-deep);
+}
+
+.category-card__name {
+  font-family: var(--font-heading);
+  font-size: var(--fs-md);
+  color: var(--color-brown-900);
+  margin: 0;
+}
+
 /* ---- Product grid & card -------------------------------------------------- */
 .product-grid {
   display: grid;
@@ -244,6 +304,20 @@ p { margin: 0 0 var(--space-2); max-width: 62ch; color: var(--color-brown-700); 
   color: var(--color-brown-500);
 }
 
+/* ---- Filter bar ------------------------------------------------------------ */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+  margin-bottom: var(--space-4);
+}
+
+.filter-btn.is-active {
+  background: var(--color-moss-deep);
+  border-color: var(--color-moss-deep);
+  color: var(--color-surface);
+}
+
 /* ---- Category badge ------------------------------------------------------- */
 .badge {
   display: inline-block;
@@ -296,6 +370,10 @@ p { margin: 0 0 var(--space-2); max-width: 62ch; color: var(--color-brown-700); 
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .category-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 640px) {
@@ -306,6 +384,15 @@ p { margin: 0 0 var(--space-2); max-width: 62ch; color: var(--color-brown-700); 
 
   .product-grid {
     grid-template-columns: 1fr;
+  }
+
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero {
+    min-height: auto;
+    padding: var(--space-6) 0;
   }
 
   .site-header .container {
