@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "น้ำพุแมว",
+    "category": "feeding",
+    "categoryLabel": "อาหารและน้ำ",
+    "price": 590,
+    "description": "น้ำพุแมวอัตโนมัติ ช่วยเพิ่มการกินน้ำ",
+    "image": "landing-pageimages/cat-fountain.jpg"
+  },
+  {
+    "id": 2,
+    "name": "ทรายแมวพรีเมียม",
+    "category": "hygiene",
+    "categoryLabel": "ความสะอาด",
+    "price": 220,
+    "description": "ทรายแมวคุณภาพสูง ฝุ่นน้อย เก็บกลิ่นดีเยี่ยม",
+    "image": "landing-pageimages/cat-litter.jpg"
+  },
+  {
+    "id": 3,
+    "name": "ชุดอุปกรณ์แปรงขนและของเล่น",
+    "category": "grooming",
+    "categoryLabel": "ดูแลขนและของเล่น",
+    "price": 350,
+    "description": "แปรงหวีขนสัตว์เลี้ยงพร้อมของเล่นเสริมทักษะ",
+    "image": "landing-pageimages/grooming-set.jpg"
+  },
+  {
+    "id": 4,
+    "name": "ป้ายชื่อสัตว์เลี้ยง",
+    "category": "accessory",
+    "categoryLabel": "อุปกรณ์เสริม",
+    "price": 120,
+    "description": "ป้ายชื่อน่ารัก สลักชื่อและเบอร์โทรได้",
+    "image": "landing-pageimages/id-tag.jpg"
+  },
+  {
+    "id": 5,
+    "name": "ชามอาหารสุนัขและแมว",
+    "category": "feeding",
+    "categoryLabel": "อาหารและน้ำ",
+    "price": 290,
+    "description": "ชามอาหารยกรอบ ป้องกันการปวดคอ",
+    "image": "landing-pageimages/pet-bowl.jpg"
+  },
+  {
+    "id": 6,
+    "name": "คอนโดแมว / เสาลับเล็บ",
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์และที่เล่น",
+    "price": 1290,
+    "description": "คอนโดแมวแข็งแรงทนทาน สำหรับปีนป่ายและลับเล็บ",
+    "image": "landing-pageimages/scratching-post.jpg"
+  }
+]

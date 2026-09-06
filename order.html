@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สั่งซื้อสินค้า — My Paws</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">My <span>Paws</span></a>
+      <nav class="nav-links">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้าทั้งหมด</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section--tight">
+    <div class="container">
+      <h1>สั่งซื้อสินค้า</h1>
+      <p>กรอกข้อมูลให้ครบถ้วน ทีมงาน My Paws จะติดต่อกลับเพื่อยืนยันคำสั่งซื้อ</p>
+
+      <form id="orderForm" class="form">
+        <div class="form-group">
+          <label for="customerName">ชื่อลูกค้า</label>
+          <input class="form-control" type="text" id="customerName" name="customerName" required>
+        </div>
+
+        <div class="form-group">
+          <label for="contact">เบอร์โทร/Line</label>
+          <input class="form-control" type="text" id="contact" name="contact" required>
+        </div>
+
+        <div class="form-group">
+          <label for="items">รายการสินค้า</label>
+          <input class="form-control" type="text" id="items" name="items" required>
+        </div>
+
+        <div class="form-group">
+          <label for="total">จำนวนเงินรวม
+            <span class="hint">(บาท)</span>
+          </label>
+          <input class="form-control" type="text" id="total" name="total" required>
+        </div>
+
+        <div class="form-group">
+          <label for="note">หมายเหตุ</label>
+          <textarea class="form-control" id="note" name="note" placeholder="เช่น สี ขนาด หรือที่อยู่จัดส่ง"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">ยืนยันสั่งซื้อ</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <p class="brand" style="color: var(--color-cream-deep); margin: 0;">My Paws</p>
+        <p style="color: var(--color-brown-500); margin: 0;">ดูแลทุกอุ้งเท้าคู่โปรดด้วยหัวใจ</p>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้าทั้งหมด</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

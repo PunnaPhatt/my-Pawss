@@ -1,0 +1,56 @@
+[
+  {
+    "id": "cat-litter-natural",
+    "name": "ทรายแมวธรรมชาติ",
+    "category": "hygiene",
+    "categoryLabel": "สุขอนามัย",
+    "price": 390,
+    "image": "images/cat-litter.jpg",
+    "description": "ทรายแมวจากวัสดุธรรมชาติ จับตัวเป็นก้อนไว ดับกลิ่นได้ดี ฝุ่นน้อย ปลอดภัยสำหรับแมวทุกวัย"
+  },
+  {
+    "id": "cat-fountain-ceramic",
+    "name": "น้ำพุแมวเซรามิก",
+    "category": "feeding",
+    "categoryLabel": "อาหารและน้ำ",
+    "price": 1490,
+    "image": "images/cat-fountain.jpg",
+    "description": "น้ำพุเซรามิกกระตุ้นให้แมวดื่มน้ำมากขึ้น ทำงานเงียบ ทำความสะอาดง่าย ดีไซน์เข้ากับทุกมุมบ้าน"
+  },
+  {
+    "id": "pet-bowl-healthy",
+    "name": "ชามอาหารทรงสุขภาพ",
+    "category": "feeding",
+    "categoryLabel": "อาหารและน้ำ",
+    "price": 690,
+    "image": "images/pet-bowl.jpg",
+    "description": "ชามทรงเอียงพิเศษ ช่วยลดอาการปวดคอและปัญหากระดูกสันหลัง เหมาะกับสัตว์เลี้ยงทุกขนาด"
+  },
+  {
+    "id": "scratching-post-wood",
+    "name": "เสาลับเล็บไม้แท้",
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "price": 2490,
+    "image": "images/scratching-post.jpg",
+    "description": "เสาลับเล็บจากไม้แท้และเชือกธรรมชาติ โครงสร้างแข็งแรง ทนทาน ให้แมวได้ลับเล็บและปีนป่ายอย่างปลอดภัย"
+  },
+  {
+    "id": "grooming-set-toy",
+    "name": "ชุดแปรงขนและของเล่น",
+    "category": "grooming",
+    "categoryLabel": "ดูแลขนและความสะอาด",
+    "price": 550,
+    "image": "images/grooming-set.jpg",
+    "description": "ชุดแปรงขนคุณภาพดีพร้อมของเล่นชิ้นพิเศษ ช่วยลดขนร่วง กระตุ้นการไหลเวียนเลือด และเสริมสายสัมพันธ์กับเจ้าของ"
+  },
+  {
+    "id": "id-tag-engraved",
+    "name": "ป้ายชื่อสลัก",
+    "category": "accessory",
+    "categoryLabel": "ของใช้เสริม",
+    "price": 199,
+    "image": "images/id-tag.jpg",
+    "description": "ป้ายชื่อโลหะสลักชื่อและเบอร์ติดต่อ น้ำหนักเบา ทนสนิม ช่วยให้สัตว์เลี้ยงกลับบ้านได้ปลอดภัยหากพลัดหลง"
+  }
+]

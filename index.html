@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Paws — ดูแลทุกอุ้งเท้าคู่โปรด</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">My <span>Paws</span></a>
+      <nav class="nav-links">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้าทั้งหมด</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero__content">
+      <span class="hero__eyebrow">My Paws</span>
+      <h1 class="hero__title">ดูแลทุกอุ้งเท้าคู่โปรด เพราะทุกสัมผัสคือความรัก My Paws จึงคัดสรรสิ่งที่ดีที่สุดเพื่อสัตว์เลี้ยงของคุณ</h1>
+      <p class="hero__desc">ของใช้สัตว์เลี้ยงที่คัดสรรมาอย่างพิถีพิถัน ทั้งความปลอดภัย คุณภาพ และดีไซน์ที่เข้ากับทุกบ้าน</p>
+      <a href="product.html" class="btn btn-primary">ดูสินค้าทั้งหมด</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center mx-auto">เลือกซื้อตามหมวดหมู่</h2>
+      <div class="category-grid">
+        <a class="category-card" href="product.html?category=hygiene">
+          <h3 class="category-card__name">ความสะอาด</h3>
+        </a>
+        <a class="category-card" href="product.html?category=feeding">
+          <h3 class="category-card__name">อาหารและน้ำ</h3>
+        </a>
+        <a class="category-card" href="product.html?category=furniture">
+          <h3 class="category-card__name">เฟอร์นิเจอร์และที่เล่น</h3>
+        </a>
+        <a class="category-card" href="product.html?category=grooming">
+          <h3 class="category-card__name">ดูแลขนและของเล่น</h3>
+        </a>
+        <a class="category-card" href="product.html?category=accessory">
+          <h3 class="category-card__name">อุปกรณ์เสริม</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <h2 class="text-center mx-auto">สินค้าแนะนำ</h2>
+      <div class="product-grid">
+
+        <article class="product-card">
+          <div class="product-card__image">
+            <img src="images/cat-fountain.jpg" alt="น้ำพุแมวเซรามิก" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <span class="product-card__category">อาหารและน้ำ</span>
+            <h3 class="product-card__name">น้ำพุแมวเซรามิก</h3>
+            <p class="product-card__desc">สายน้ำบริสุทธิ์ ชวนดื่มง่าย เพื่อสุขภาพที่ดีในทุกวัน</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">1,490</span>
+              <a class="btn btn-primary" href="order.html?item=น้ำพุแมวเซรามิก&price=1490">สั่งซื้อ</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-card__image">
+            <img src="images/scratching-post.jpg" alt="เสาลับเล็บไม้แท้" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <span class="product-card__category">เฟอร์นิเจอร์และที่เล่น</span>
+            <h3 class="product-card__name">เสาลับเล็บไม้แท้</h3>
+            <p class="product-card__desc">แข็งแรง ไม่ล้มง่าย เติมเต็มสัญชาตญาณอย่างปลอดภัย</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">2,490</span>
+              <a class="btn btn-primary" href="order.html?item=เสาลับเล็บไม้แท้&price=2490">สั่งซื้อ</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-card__image">
+            <img src="images/grooming-set.jpg" alt="ชุดแปรงขนและของเล่น" loading="lazy">
+          </div>
+          <div class="product-card__body">
+            <span class="product-card__category">ดูแลขนและของเล่น</span>
+            <h3 class="product-card__name">ชุดแปรงขนและของเล่น</h3>
+            <p class="product-card__desc">สลัดขนร่วงอย่างอ่อนโยน เติมรอยยิ้มด้วยความเพลิดเพลิน</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">550</span>
+              <a class="btn btn-primary" href="order.html?item=ชุดแปรงขนและของเล่น&price=550">สั่งซื้อ</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <p class="brand" style="color: var(--color-cream-deep); margin: 0;">My Paws</p>
+        <p style="color: var(--color-brown-500); margin: 0;">ดูแลทุกอุ้งเท้าคู่โปรดด้วยหัวใจ</p>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้าทั้งหมด</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
